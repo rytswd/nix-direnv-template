@@ -7,7 +7,8 @@ Because this is the pattern I follow for many repos, it is a place to store most
 
 * Quick Getting Started
 #+begin_quote
-[!NOTE] In order to follow this, you need to have Nix package manager setup in place. Follow the official guide at https://nixos.org/download/.
+[!NOTE]
+In order to follow this, you need to have Nix package manager setup in place. Follow the official guide at https://nixos.org/download/.
 #+end_quote
 
 By running the following command, you should be able to create a new Nix Direnv setup.
