@@ -5,6 +5,15 @@ This repo is meant to showcase the power of ~direnv~ / ~nix-direnv~ with a very 
 
 Because this is the pattern I follow for many repos, it is a place to store most commonly used templates.
 
+#+begin_quote
+[!TIP]
+If you want a more complete solution, you can check out the following:
+
+https://github.com/the-nix-way/dev-templates
+
+This repository is not meant to cover all various use cases, but focused on simple getting started, which I can use for everyday development.
+#+end_quote
+
 * Quick Getting Started
 #+begin_quote
 [!NOTE]
