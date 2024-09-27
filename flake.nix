@@ -16,5 +16,9 @@
         path = ./standard-setup;
         description = "Standard template for Nix Direnv setup.";
       };
+      templates.kubeconfig = {
+        path = ./kubeconfig;
+        description = "Template for using dedicated KUBECONFIG based on Nix Direnv setup.";
+      };
     };
 }
