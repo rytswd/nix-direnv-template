@@ -37,7 +37,7 @@
             # This assumes that the directory where `nix flake init` is run has
             # "kubeconfig.yaml". With this setup, any child directory should
             # be able to use the dedicated config.
-            "KUBECONFIG" = toString ./kubeconfig;
+            "KUBECONFIG" = toString ./kubeconfig.yaml;
           };
 
           # You can define any shell commands upon the direnv initialisation.
