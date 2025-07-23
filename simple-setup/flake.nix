@@ -28,7 +28,7 @@
           #
           # Also, from CLI, `nh search PACKAGE` is a quick way to check. (You
           # need to have `nh` installed.)
-          buildInputs = [
+          nativeBuildInputs = [
             pkgs.docker-compose
           ];
 
