@@ -20,5 +20,9 @@
         path = ./kubeconfig;
         description = "Template for using dedicated KUBECONFIG based on Nix Direnv setup.";
       };
+      templates.rust-naersk = {
+        path = ./language-specific/rust-naersk;
+        description = "Template for Nix Direnv and Naersk based Rust packaging setup.";
+      };
     };
 }
