@@ -55,6 +55,20 @@
         #==========================================
         devShell = pkgs.mkShell {
           nativeBuildInputs = buildInputs ++ nativeBuildInputs;
+
+          # You can define custom environment variables.
+          env = {
+            "TEST_NIX_DIRENV" = "foobar";
+          };
+
+          # You can define any shell commands upon the direnv initialisation.
+          # This can be used for more complex environment variable, initial
+          # setup script, valiadtion, etc.
+          shellHook = ''
+            export TEST_NIX_DIRENV_DATE=$(date)
+            echo "💪 Direnv has made some adjustment with your session!"
+          '';
+
         };
       }
     );
