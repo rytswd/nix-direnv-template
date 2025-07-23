@@ -13,8 +13,8 @@
       }
     ) // {
       templates.default = {
-        path = ./standard-setup;
-        description = "Standard template for Nix Direnv setup.";
+        path = ./simple-setup;
+        description = "Simple template for Nix Direnv setup.";
       };
       templates.kubeconfig = {
         path = ./kubeconfig;
